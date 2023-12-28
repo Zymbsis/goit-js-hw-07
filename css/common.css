@@ -43,6 +43,15 @@ img {
   height: auto;
 }
 
+button {
+  font-family: inherit;
+  color: currentColor;
+}
+
+input {
+  font-family: inherit;
+}
+
 #categories {
   display: flex;
   flex-direction: column;
@@ -100,4 +109,35 @@ img {
 .gallery-img {
   object-fit: cover;
   height: 100%;
+}
+
+#name-input {
+  width: 360px;
+  display: block;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 24px;
+  margin-left: 24px;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  outline: transparent;
+  color: #2E2F42;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+#name-input:hover {
+  border-color: #000;
+}
+
+#name-input + h1 {
+  padding-left: 24px;
+  color: #2E2F42;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
 }
