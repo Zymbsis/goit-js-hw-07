@@ -114,11 +114,8 @@ input {
 #name-input {
   width: 360px;
   display: block;
-  padding-left: 16px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  margin-top: 24px;
-  margin-left: 24px;
+  margin: 0 auto;
+  padding: 8px 16px;
   margin-bottom: 16px;
   border-radius: 4px;
   border: 1px solid #808080;
@@ -134,10 +131,64 @@ input {
 }
 
 #name-input + h1 {
-  padding-left: 24px;
+  text-align: center;
   color: #2E2F42;
   font-size: 24px;
   font-weight: 600;
   line-height: 1.33;
   letter-spacing: 0.04em;
+}
+
+.login-form {
+  max-width: 408px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  color: #2E2F42;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin-bottom: 8px;
+}
+
+.login-form label:last-of-type {
+  margin-bottom: 16px;
+}
+
+.login-form input {
+  outline: transparent;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding: 8px 16px;
+  color: #2E2F42;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.login-form input:hover {
+  border-color: #000;
+}
+
+.login-form button {
+  min-width: 86px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: #4E75FF;
+  border: none;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.login-form button:hover {
+  background-color: #6C8CFF;
 }
