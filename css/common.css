@@ -124,6 +124,7 @@ input {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 #name-input:hover {
@@ -170,6 +171,7 @@ input {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .login-form input:hover {
@@ -187,6 +189,7 @@ input {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .login-form button:hover {
@@ -218,6 +221,11 @@ input {
   letter-spacing: 0.04em;
   margin: 0 auto;
   display: block;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.change-color:hover {
+  background-color: #6C8CFF;
 }
 
 #controls {
@@ -243,6 +251,7 @@ input {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 #controls input:hover {
@@ -261,10 +270,21 @@ input {
 
 [data-create] {
   background: #4E75FF;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[data-create]:hover {
+  background-color: #6C8CFF;
 }
 
 [data-destroy] {
   background: #FF4E4E;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[data-destroy]:hover {
+  background-color: #FF7070;
+  ;
 }
 
 #boxes {
