@@ -192,3 +192,30 @@ input {
 .login-form button:hover {
   background-color: #6C8CFF;
 }
+
+.widget {
+  padding-top: 100px;
+}
+
+.widget p {
+  color: #2E2F42;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.change-color {
+  min-width: 116px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4E75FF;
+  color: #FFF;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin: 0 auto;
+  display: block;
+}
