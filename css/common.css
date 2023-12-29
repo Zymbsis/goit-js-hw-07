@@ -245,6 +245,10 @@ input {
   letter-spacing: 0.04em;
 }
 
+#controls input:hover {
+  border-color: #000;
+}
+
 #controls button {
   width: 120px;
   border-radius: 8px;

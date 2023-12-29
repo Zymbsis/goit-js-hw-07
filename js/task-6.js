@@ -4,6 +4,11 @@ const destroyCard = document.querySelector('[data-destroy]');
 const boxForCard = document.querySelector('#boxes');
 
 createCard.addEventListener('click', onButtonClick);
+input.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') {
+    onButtonClick();
+  }
+});
 destroyCard.addEventListener('click', destroyBoxes);
 
 function onButtonClick() {
