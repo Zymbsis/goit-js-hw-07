@@ -1,8 +1,8 @@
 const textInput = document.querySelector('#name-input');
 const output = document.querySelector('#name-output');
 
-textInput.addEventListener('input', (event) => {
-  const userValue = event.currentTarget.value
+textInput.addEventListener('input', (e) => {
+  const userValue = e.currentTarget.value
     .trim()
     .split('')
     .map((item, index, arr) =>

@@ -219,3 +219,57 @@ input {
   margin: 0 auto;
   display: block;
 }
+
+#controls {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  background-color: #F6F6FE;
+}
+
+#controls input {
+  outline: transparent;
+  width: 150px;
+  border-radius: 8px;
+  border: 1px solid #808080;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  text-align: center;
+  color: #2E2F42;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+#controls button {
+  width: 120px;
+  border-radius: 8px;
+  border: none;
+  color: #FFF;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+[data-create] {
+  background: #4E75FF;
+}
+
+[data-destroy] {
+  background: #FF4E4E;
+}
+
+#boxes {
+  border-radius: 8px;
+  background-color: #F6F6FE;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
