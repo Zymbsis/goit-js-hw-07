@@ -6,7 +6,9 @@ textInput.addEventListener('input', (e) => {
     .trim()
     .split('')
     .map((item, index, arr) =>
-      index === 0 || arr[index - 1] === ' ' ? item.toUpperCase() : item,
+      index === 0 || arr[index - 1] === ' '
+        ? item.toUpperCase()
+        : item.toLowerCase(),
     )
     .join('');
   output.textContent = userValue ? userValue : 'Anonymous';
