@@ -297,3 +297,9 @@ input {
   justify-content: center;
   gap: 16px;
 }
+
+#controls input::-webkit-outer-spin-button,
+#controls input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
